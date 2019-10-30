@@ -1,0 +1,214 @@
+/*
+    Project:    Product Landing Page
+    Filename:   styles.css
+    Author:     Arden Mikkelson
+    Date:       2019.10.30
+*/
+
+
+/* Base page styling */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Navigation bar */
+#logo {
+    max-width: 50px;
+    height: auto;
+    border: 1px solid #8fd19e;
+    border-radius: 50%;
+}
+
+
+/* Page header: image and title */
+header {
+    margin-bottom: 80px;
+}
+
+
+/* Main content */
+main {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+
+/* About section */
+#about-img {
+    width: 50%;
+    height: auto;
+}
+
+.center-column {
+    text-align: center;
+    align-self: center;
+}
+
+#about-description {
+    line-height: 3;
+}
+
+
+/* Features section */
+#features-card {
+    margin: 100px 100px 80px 100px;
+    font-size: 1.3rem;
+}
+
+.nav-pills .dl-pill .nav-link:not(.active) {
+    background-color: white;
+}
+
+.nav-pills .sn-pill .nav-link:not(.active) {
+    background-color: white;
+}
+
+.nav-pills .ed-pill .nav-link:not(.active) {
+    background-color: white;
+}
+
+.nav-pills .sh-pill .nav-link:not(.active) {
+    background-color: white;
+}
+
+.pill-style {
+    color: #8fd19e;
+}
+
+
+/* Specs section */
+.spec-section {
+    margin-top: 120px;
+}
+
+#light-img {
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 3px #a0a0a0;
+}
+
+#advanced-img {
+    width: 71%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 3px #a0a0a0;
+}
+
+#pro-img {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 3px #a0a0a0;
+}
+
+.column-top {
+    font-size: 1.75rem;
+    padding-top: 80px;
+}
+
+.text-color {
+    color: #8fd19e;
+    margin-bottom: 40px;
+}
+
+.spec-list {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+.spec-list-item {
+    margin-top: 20px;
+}
+
+.spec-list-margin {
+    margin-bottom: 40px;
+}
+
+.spec-pricing {
+    margin: 80px 0;
+}
+
+.btn-color {
+    color: #ccffcc;
+    background-color: #a0a0a0;
+}
+
+.btn-color:hover {
+    color: #b3ffff;
+}
+
+
+/* Pricing section */
+.order-button {
+    color: #40bf80;
+    background-color: white;
+    font-size: 2rem;
+    border: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.order-button:hover {
+    color: #5BCAFF;
+}
+
+
+/* Contact section */
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons {
+    color: #8fd19e;
+}
+
+.input-group {
+    max-width: 550px;
+}
+
+.btn-style {
+    color: #ccffcc;
+    background-color: #a0a0a0;
+    font-size: 1rem;
+    margin-bottom: 80px;
+}
+
+.btn-style:hover {
+    color: #b3ffff;
+}
+
+
+/* Footer section */
+footer {
+    background-color: #a0a0a0;
+}
+
+.footer-icons {
+    color: #ccffcc;
+}
+
+.footer-icons:hover {
+    color: #b3ffff;
+}
+
+.creator-links {
+    color: #ccffcc;
+}
+
+.creator-links:hover {
+    color: #b3ffff;
+}
+
